@@ -8,10 +8,6 @@ package com.argentinaprograma.APIBackend.controller;
 import com.argentinaprograma.APIBackend.model.Capacitacion;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-/**
- *
- * @author guille
- */
 public interface CapacitacionController extends JpaRepository<Capacitacion, Long>{
     
 }
