@@ -11,7 +11,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 /**
  *
- * @author guill
+ * @author acm1ux3r0
  */
 public interface CapacitacionTecController extends JpaRepository<CapacitacionTec, Long> {
     

@@ -21,7 +21,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 
 /**
  *
- * @author guille
+ * @author acm1ux3r0
  */
 @RestController
 @RequestMapping("/tecnologia")

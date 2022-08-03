@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 
 /**
  *
- * @author guille
+ * @author acm1ux3r0
  */
 @RestController
 @RequestMapping("/capacitacionTec")

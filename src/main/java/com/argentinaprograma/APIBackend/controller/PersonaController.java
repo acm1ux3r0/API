@@ -11,7 +11,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 /**
  *
- * @author guille
+ * @author acm1ux3r0
  */
 public interface PersonaController extends JpaRepository<Persona, Long> {
     

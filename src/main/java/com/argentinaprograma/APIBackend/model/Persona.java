@@ -17,7 +17,7 @@ import javax.persistence.OneToMany;
 
 /**
  *
- * @author guille
+ * @author acm1ux3r0
  */
 @Entity
 public class Persona {

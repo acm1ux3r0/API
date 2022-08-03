@@ -27,7 +27,7 @@ import io.jsonwebtoken.UnsupportedJwtException;
 
 /**
  *
- * @author guille
+ * @author acm1ux3r0
  */
 public class JWTAuthorizationFilter extends OncePerRequestFilter {
 

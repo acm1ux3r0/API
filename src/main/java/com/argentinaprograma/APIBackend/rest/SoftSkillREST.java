@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  *
- * @author guille
+ * @author acm1ux3r0
  */
 @RestController
 @RequestMapping("softSkill")
