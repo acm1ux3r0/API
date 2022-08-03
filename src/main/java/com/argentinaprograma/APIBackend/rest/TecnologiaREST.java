@@ -13,7 +13,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import com.argentinaprograma.APIBackend.controller.TecnologiaController;
 import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
 /**
@@ -37,6 +40,20 @@ public class TecnologiaREST {
     public Long crearTecnologia(@RequestBody Tecnologia tecnologia) {
         tecnologiaController.save(tecnologia);
         return tecnologia.getId();
+    }
+    
+// Eliminar una tecnologia por id
+    @DeleteMapping("/eliminar/{id}")
+    public String eliminarTecnologia(@PathVariable("id") Long id) {
+        tecnologiaController.deleteById(id);
+        return "El id: " + id +" fue eliminado correctamente";
+    }
+    
+    // Actualizar una tecnologia por id
+    @PutMapping("/actualizar")
+    public Tecnologia editarTecnologia(@RequestBody Tecnologia tecnologia) {
+        tecnologiaController.save(tecnologia);
+        return tecnologia;
     }
     
 }
